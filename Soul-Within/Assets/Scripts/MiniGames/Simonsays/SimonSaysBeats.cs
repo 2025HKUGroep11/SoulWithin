@@ -1,6 +1,6 @@
 using System;
 
-namespace MiniGames.Simonsays
+namespace MiniGames.SimonSays
 {
     [Serializable]
     public enum SimonSaysBeats

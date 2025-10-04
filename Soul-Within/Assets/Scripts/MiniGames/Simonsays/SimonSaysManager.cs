@@ -1,20 +1,28 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Events;
-using UnityEngine.Serialization;
 
-namespace MiniGames.Simonsays
+namespace MiniGames.SimonSays
 {
     public class SimonSaysManager : MonoBehaviour
     {
         [SerializeField] private float waitTimeBetweenBeats;
         [SerializeField] private List<SimonSaysBeats> beats = new List<SimonSaysBeats>();
+        [SerializeField] private AudioSource audioSource;
+        [SerializeField] private AudioClip correctSound;
+        [SerializeField] private AudioClip wrongSound;
         
         private int _round;
         private int _step;
-        
-        public UnityEvent<SimonSaysBeats> showBeat;
+        private Dictionary<SimonSaysBeats, Action> _onBeatShown = new();
+
+        public Dictionary<SimonSaysBeats, Action> OnBeatShown { get => _onBeatShown; set => _onBeatShown = value; }
+
+        private void Start()
+        {
+            StartCoroutine(ShowBeatPattern());
+        }
 
         public void OnPressedBeat(int beatValue)
         {
@@ -36,6 +44,8 @@ namespace MiniGames.Simonsays
                 //Debug.Log("step completed, round is not");
                 return;
             }
+
+            StartCoroutine(PlayCorrectSound());
             _round += 1;
             _step = 0;
             //Debug.Log("round completed");
@@ -45,12 +55,19 @@ namespace MiniGames.Simonsays
 
         private IEnumerator ShowBeatPattern()
         {
-            for (int i = 0; i < _round; i++)
+            yield return new WaitForSeconds(waitTimeBetweenBeats * 2);
+            for (int i = 0; i < _round + 1; i++)
             {
                 SimonSaysBeats beat = beats[i];
-                showBeat.Invoke(beat);
+                _onBeatShown[beat].Invoke();
                 yield return new WaitForSeconds(waitTimeBetweenBeats);
             }
+        }
+        
+        private IEnumerator PlayCorrectSound()
+        {
+            yield return new WaitForSeconds(waitTimeBetweenBeats);
+            audioSource.PlayOneShot(correctSound);
         }
 
         private void CompleteGame()
@@ -60,7 +77,7 @@ namespace MiniGames.Simonsays
 
         private void ResetGame()
         {
-            Debug.Log("Game Reset");
+            audioSource.PlayOneShot(wrongSound);
             _round = 0;
             _step = 0;
             StartCoroutine(ShowBeatPattern());
