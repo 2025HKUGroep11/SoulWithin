@@ -8,6 +8,7 @@ namespace MiniGames.SimonSays
     public class SimonSaysManager : MonoBehaviour
     {
         [SerializeField] private float waitTimeBetweenBeats;
+        [SerializeField] private float waitTimeBetweenRounds;
         [SerializeField] private List<SimonSaysBeats> beats = new List<SimonSaysBeats>();
         [SerializeField] private AudioSource audioSource;
         [SerializeField] private AudioClip correctSound;
@@ -41,21 +42,19 @@ namespace MiniGames.SimonSays
             _step += 1;
             if (_step <= _round)
             {
-                //Debug.Log("step completed, round is not");
                 return;
             }
 
             StartCoroutine(PlayCorrectSound());
             _round += 1;
             _step = 0;
-            //Debug.Log("round completed");
             StartCoroutine(ShowBeatPattern());
             if (_round == beats.Count) CompleteGame();
         }
 
         private IEnumerator ShowBeatPattern()
         {
-            yield return new WaitForSeconds(waitTimeBetweenBeats * 2);
+            yield return new WaitForSeconds(waitTimeBetweenRounds);
             for (int i = 0; i < _round + 1; i++)
             {
                 SimonSaysBeats beat = beats[i];
@@ -72,7 +71,7 @@ namespace MiniGames.SimonSays
 
         private void CompleteGame()
         {
-            Debug.Log("Game Complete");
+
         }
 
         private void ResetGame()
