@@ -34,7 +34,7 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "EndMiniGame",
+                    "name": "StartLevelAgain",
                     "type": "Button",
                     "id": "a3c309cd-508d-4698-b11c-f678c043e0f7",
                     "expectedControlType": "",
@@ -161,7 +161,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": ";Keyboard&Mouse",
-                    "action": "EndMiniGame",
+                    "action": "StartLevelAgain",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

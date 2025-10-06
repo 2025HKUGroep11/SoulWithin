@@ -82,7 +82,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3742139868975148232}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 7a64e8adb170aea42b79f6ffef925d30, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: ab40d9653d7a87249b71ad46ddff03be, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -394,6 +394,10 @@ PrefabInstance:
       propertyPath: scaleSize.z
       value: 0.25
       objectReference: {fileID: 0}
+    - target: {fileID: 4560722989482649503, guid: f3c3040d3df0b9d45b51c1b9c7f3bc28, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 6937817954938267909, guid: cd4411b25fce0df4dbb7543ef270e1f4, type: 3}
     - target: {fileID: 4563184411414414820, guid: f3c3040d3df0b9d45b51c1b9c7f3bc28, type: 3}
       propertyPath: m_SizeDelta.x
       value: 0
@@ -438,6 +442,10 @@ PrefabInstance:
       propertyPath: scaleSize.z
       value: 0.25
       objectReference: {fileID: 0}
+    - target: {fileID: 8596639868279638001, guid: f3c3040d3df0b9d45b51c1b9c7f3bc28, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -6470460504253458178, guid: 8496d7db9871e614e94ffd871fcb7e19, type: 3}
     - target: {fileID: 8855721490882610553, guid: f3c3040d3df0b9d45b51c1b9c7f3bc28, type: 3}
       propertyPath: m_AnchorMax.x
       value: 1
@@ -474,6 +482,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -87
       objectReference: {fileID: 0}
+    - target: {fileID: 8918321401161457934, guid: f3c3040d3df0b9d45b51c1b9c7f3bc28, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -855298285791758126, guid: 098e68a9c740f39498bc4f7351dca00f, type: 3}
     - target: {fileID: 9145086241029532764, guid: f3c3040d3df0b9d45b51c1b9c7f3bc28, type: 3}
       propertyPath: m_Name
       value: SimonSaysMiniGame
@@ -524,4 +536,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   videoPlayer: {fileID: 7099285592524299409}
-  videoClip: {fileID: 32900000, guid: e741af8c38928ec4493439881656b584, type: 3}
+  videoClip: {fileID: 32900000, guid: a5b838fc77e041042a83b3d73a9e3655, type: 3}

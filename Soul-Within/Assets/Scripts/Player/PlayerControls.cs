@@ -120,7 +120,7 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
                     ""initialStateCheck"": false
                 },
                 {
-                    ""name"": ""EndMiniGame"",
+                    ""name"": ""StartLevelAgain"",
                     ""type"": ""Button"",
                     ""id"": ""a3c309cd-508d-4698-b11c-f678c043e0f7"",
                     ""expectedControlType"": """",
@@ -247,7 +247,7 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": "";Keyboard&Mouse"",
-                    ""action"": ""EndMiniGame"",
+                    ""action"": ""StartLevelAgain"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -838,7 +838,7 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
         m_Player_Move = m_Player.FindAction("Move", throwIfNotFound: true);
         m_Player_Jump = m_Player.FindAction("Jump", throwIfNotFound: true);
         m_Player_OnInteract = m_Player.FindAction("OnInteract", throwIfNotFound: true);
-        m_Player_EndMiniGame = m_Player.FindAction("EndMiniGame", throwIfNotFound: true);
+        m_Player_StartLevelAgain = m_Player.FindAction("StartLevelAgain", throwIfNotFound: true);
         // UI
         m_UI = asset.FindActionMap("UI", throwIfNotFound: true);
         m_UI_Navigate = m_UI.FindAction("Navigate", throwIfNotFound: true);
@@ -935,7 +935,7 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
     private readonly InputAction m_Player_Move;
     private readonly InputAction m_Player_Jump;
     private readonly InputAction m_Player_OnInteract;
-    private readonly InputAction m_Player_EndMiniGame;
+    private readonly InputAction m_Player_StartLevelAgain;
     /// <summary>
     /// Provides access to input actions defined in input action map "Player".
     /// </summary>
@@ -960,9 +960,9 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
         /// </summary>
         public InputAction @OnInteract => m_Wrapper.m_Player_OnInteract;
         /// <summary>
-        /// Provides access to the underlying input action "Player/EndMiniGame".
+        /// Provides access to the underlying input action "Player/StartLevelAgain".
         /// </summary>
-        public InputAction @EndMiniGame => m_Wrapper.m_Player_EndMiniGame;
+        public InputAction @StartLevelAgain => m_Wrapper.m_Player_StartLevelAgain;
         /// <summary>
         /// Provides access to the underlying input action map instance.
         /// </summary>
@@ -998,9 +998,9 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
             @OnInteract.started += instance.OnOnInteract;
             @OnInteract.performed += instance.OnOnInteract;
             @OnInteract.canceled += instance.OnOnInteract;
-            @EndMiniGame.started += instance.OnEndMiniGame;
-            @EndMiniGame.performed += instance.OnEndMiniGame;
-            @EndMiniGame.canceled += instance.OnEndMiniGame;
+            @StartLevelAgain.started += instance.OnStartLevelAgain;
+            @StartLevelAgain.performed += instance.OnStartLevelAgain;
+            @StartLevelAgain.canceled += instance.OnStartLevelAgain;
         }
 
         /// <summary>
@@ -1021,9 +1021,9 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
             @OnInteract.started -= instance.OnOnInteract;
             @OnInteract.performed -= instance.OnOnInteract;
             @OnInteract.canceled -= instance.OnOnInteract;
-            @EndMiniGame.started -= instance.OnEndMiniGame;
-            @EndMiniGame.performed -= instance.OnEndMiniGame;
-            @EndMiniGame.canceled -= instance.OnEndMiniGame;
+            @StartLevelAgain.started -= instance.OnStartLevelAgain;
+            @StartLevelAgain.performed -= instance.OnStartLevelAgain;
+            @StartLevelAgain.canceled -= instance.OnStartLevelAgain;
         }
 
         /// <summary>
@@ -1346,12 +1346,12 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
         /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
         void OnOnInteract(InputAction.CallbackContext context);
         /// <summary>
-        /// Method invoked when associated input action "EndMiniGame" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// Method invoked when associated input action "StartLevelAgain" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
         /// </summary>
         /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
-        void OnEndMiniGame(InputAction.CallbackContext context);
+        void OnStartLevelAgain(InputAction.CallbackContext context);
     }
     /// <summary>
     /// Interface to implement callback methods for all input action callbacks associated with input actions defined by "UI" which allows adding and removing callbacks.
