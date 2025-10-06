@@ -120,11 +120,39 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 184034955973939982, guid: f3c3040d3df0b9d45b51c1b9c7f3bc28, type: 3}
       propertyPath: beats.Array.size
-      value: 3
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 184034955973939982, guid: f3c3040d3df0b9d45b51c1b9c7f3bc28, type: 3}
       propertyPath: 'beats.Array.data[0]'
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 184034955973939982, guid: f3c3040d3df0b9d45b51c1b9c7f3bc28, type: 3}
+      propertyPath: 'beats.Array.data[3]'
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 184034955973939982, guid: f3c3040d3df0b9d45b51c1b9c7f3bc28, type: 3}
+      propertyPath: 'beats.Array.data[4]'
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 184034955973939982, guid: f3c3040d3df0b9d45b51c1b9c7f3bc28, type: 3}
+      propertyPath: 'beats.Array.data[5]'
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 184034955973939982, guid: f3c3040d3df0b9d45b51c1b9c7f3bc28, type: 3}
+      propertyPath: 'beats.Array.data[6]'
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 184034955973939982, guid: f3c3040d3df0b9d45b51c1b9c7f3bc28, type: 3}
+      propertyPath: 'beats.Array.data[7]'
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 184034955973939982, guid: f3c3040d3df0b9d45b51c1b9c7f3bc28, type: 3}
+      propertyPath: 'beats.Array.data[8]'
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 184034955973939982, guid: f3c3040d3df0b9d45b51c1b9c7f3bc28, type: 3}
+      propertyPath: 'beats.Array.data[9]'
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 184034955973939982, guid: f3c3040d3df0b9d45b51c1b9c7f3bc28, type: 3}
       propertyPath: onCompleteGame.m_PersistentCalls.m_Calls.Array.size
