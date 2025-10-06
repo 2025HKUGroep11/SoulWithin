@@ -1,13 +1,25 @@
 fileFormatVersion: 2
-guid: 9402757b6d9e838409db8902a90c4ed8
+guid: d1d8f58656747374eb20dc5cb3ad8753
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8602710768852132410
-    second: bsoul3_0
+      213: -2903645342459843811
+    second: GrassSlopeTile_0
   - first:
-      213: -7625794088900758199
-    second: bsoul3_1
+      213: -3145854319304469757
+    second: GrassSlopeTile_1
+  - first:
+      213: 4728171235772208679
+    second: GrassSlopeTile_2
+  - first:
+      213: -4768962317995802586
+    second: GrassSlopeTile_3
+  - first:
+      213: -2968787906046745980
+    second: GrassSlopeTile_4
+  - first:
+      213: -2958122438872009871
+    second: GrassSlopeTile_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -40,7 +52,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -49,7 +61,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -103,13 +115,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bsoul3_0
+      name: GrassSlopeTile_0
       rect:
         serializedVersion: 2
-        x: 489
-        y: 721
-        width: 28
-        height: 86
+        x: 14
+        y: 16
+        width: 906
+        height: 506
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -118,20 +130,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6cd142582280d9880800000000000000
-      internalID: -8602710768852132410
+      spriteID: d1ba6f8f1fd24b7d0800000000000000
+      internalID: -2903645342459843811
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bsoul3_1
+      name: GrassSlopeTile_1
       rect:
         serializedVersion: 2
-        x: 599
-        y: 718
-        width: 26
-        height: 86
+        x: 360
+        y: 12
+        width: 21
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,8 +152,96 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 945fbc8edacbb2690800000000000000
-      internalID: -7625794088900758199
+      spriteID: 3039abef92ea754d0800000000000000
+      internalID: -3145854319304469757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrassSlopeTile_2
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 12
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7261c6120b6dd9140800000000000000
+      internalID: 4728171235772208679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrassSlopeTile_3
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 12
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62003a0f90e31ddb0800000000000000
+      internalID: -4768962317995802586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrassSlopeTile_4
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 12
+        width: 25
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 482ab96f02fbcc6d0800000000000000
+      internalID: -2968787906046745980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrassSlopeTile_5
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 13
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 173fbec8053a2f6d0800000000000000
+      internalID: -2958122438872009871
       vertices: []
       indices: 
       edges: []
@@ -150,7 +250,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -160,8 +260,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      bsoul3_0: -8602710768852132410
-      bsoul3_1: -7625794088900758199
+      GrassSlopeTile_0: -2903645342459843811
+      GrassSlopeTile_1: -3145854319304469757
+      GrassSlopeTile_2: 4728171235772208679
+      GrassSlopeTile_3: -4768962317995802586
+      GrassSlopeTile_4: -2968787906046745980
+      GrassSlopeTile_5: -2958122438872009871
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
