@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 namespace MiniGames.SimonSays
 {
@@ -19,6 +20,8 @@ namespace MiniGames.SimonSays
         private Dictionary<SimonSaysBeats, Action> _onBeatShown = new();
 
         public Dictionary<SimonSaysBeats, Action> OnBeatShown { get => _onBeatShown; set => _onBeatShown = value; }
+
+        [SerializeField] UnityEvent onCompleteGame;
 
         private void Start()
         {
@@ -40,20 +43,31 @@ namespace MiniGames.SimonSays
             }
 
             _step += 1;
-            if (_step <= _round)
-            {
-                return;
-            }
+            if (_step <= _round) { return; }
 
             StartCoroutine(PlayCorrectSound());
             _round += 1;
             _step = 0;
+            if (_round == beats.Count)
+            {
+                StartCoroutine(CompleteGame());
+                return;
+            }
+            
             StartCoroutine(ShowBeatPattern());
-            if (_round == beats.Count) CompleteGame();
         }
 
+        private void ResetGame()
+        {
+            audioSource.PlayOneShot(wrongSound);
+            _round = 0;
+            _step = 0;
+            StartCoroutine(ShowBeatPattern());
+        }
+        
         private IEnumerator ShowBeatPattern()
         {
+            Debug.Log("Showing beat pattern");
             yield return new WaitForSeconds(waitTimeBetweenRounds);
             for (int i = 0; i < _round + 1; i++)
             {
@@ -68,18 +82,11 @@ namespace MiniGames.SimonSays
             yield return new WaitForSeconds(waitTimeBetweenBeats);
             audioSource.PlayOneShot(correctSound);
         }
-
-        private void CompleteGame()
+        
+        private IEnumerator CompleteGame()
         {
-
-        }
-
-        private void ResetGame()
-        {
-            audioSource.PlayOneShot(wrongSound);
-            _round = 0;
-            _step = 0;
-            StartCoroutine(ShowBeatPattern());
+            yield return new WaitForSeconds(waitTimeBetweenRounds);
+            onCompleteGame?.Invoke();
         }
     }
 }
