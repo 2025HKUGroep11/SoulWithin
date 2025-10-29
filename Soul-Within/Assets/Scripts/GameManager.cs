@@ -37,7 +37,7 @@ public class GameManager : MonoBehaviour
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
         _mainGame = GameObject.Find("MainGame");
-        _miniGame = GameObject.Find("MiniGame");
+        _miniGame = GameObject.Find("MiniGameSS");
         ResetToMainGame();
     }
 
