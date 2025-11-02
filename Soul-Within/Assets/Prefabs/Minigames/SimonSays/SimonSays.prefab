@@ -556,9 +556,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 7980004393203506301}
-        m_TargetAssemblyTypeName: MiniGames.CloseMiniGame, Assembly-CSharp
-        m_MethodName: DisableMiniGame
-        m_Mode: 1
+        m_TargetAssemblyTypeName: MiniGame.ToggleMiniGames, Assembly-CSharp
+        m_MethodName: ToggleSimonSays
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine

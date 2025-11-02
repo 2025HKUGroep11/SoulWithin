@@ -1,66 +1,71 @@
-using UnityEngine;
-using UnityEngine.InputSystem;
 using TMPro;
+using UnityEngine;
+using UnityEngine.Events;
+using UnityEngine.InputSystem;
 
-public class Interact : MonoBehaviour
+namespace Player
 {
-    private bool _playerInRange = false;
-    private PlayerControls inputControls;
-
-    [SerializeField] private TMP_Text textF;
-
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    private void Awake()
+    public class Interact : MonoBehaviour
     {
-        inputControls = new PlayerControls();
-    }
+        private bool _playerInRange = false;
+        private PlayerControls inputControls;
+ 
+        [SerializeField] UnityEvent onInteract;
+        [SerializeField] private TMP_Text textF;
 
-    // Grabs input player controller
-    private void OnEnable()
-    {
-        inputControls.Player.OnInteract.performed += OnInteract;
-        inputControls.Enable();
-    }
-
-    // disable the input controller.
-    private void OnDisable()
-    {
-        inputControls.Player.OnInteract.performed -= OnInteract;
-        inputControls.Disable();
-    }
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.CompareTag("Player"))
+        // Start is called once before the first execution of Update after the MonoBehaviour is created
+        private void Awake()
         {
-            _playerInRange = true;
-            Debug.Log("Player in range!");
+            inputControls = new PlayerControls();
+        }
 
-            if (textF != null)
+        // Grabs input player controller
+        private void OnEnable()
+        {
+            inputControls.Player.OnInteract.performed += OnInteract;
+            inputControls.Enable();
+        }
+
+        // disable the input controller.
+        private void OnDisable()
+        {
+            inputControls.Player.OnInteract.performed -= OnInteract;
+            inputControls.Disable();
+        }
+        private void OnTriggerEnter2D(Collider2D other)
+        {
+            if (other.CompareTag("Player"))
             {
-                textF.gameObject.SetActive(true);
+                _playerInRange = true;
+                Debug.Log("Player in range!");
+
+                if (textF != null)
+                {
+                    textF.gameObject.SetActive(true);
+                }
             }
         }
-    }
 
-    private void OnTriggerExit2D(Collider2D other)
-    {
-        if (other.CompareTag("Player"))
+        private void OnTriggerExit2D(Collider2D other)
         {
-            _playerInRange = false;
-            if (textF != null)
+            if (other.CompareTag("Player"))
             {
-                textF.gameObject.SetActive(false);
+                _playerInRange = false;
+                if (textF != null)
+                {
+                    textF.gameObject.SetActive(false);
+                }
             }
         }
-    }
-    private void OnInteract(InputAction.CallbackContext context)
-    {
-        if (_playerInRange)
+        private void OnInteract(InputAction.CallbackContext context)
         {
-            GameManager.instance.StartMiniGame();
-            if (textF != null)
+            if (_playerInRange)
             {
-                textF.gameObject.SetActive(false);
+                onInteract?.Invoke();
+                if (textF != null)
+                {
+                    textF.gameObject.SetActive(false);
+                }
             }
         }
     }
