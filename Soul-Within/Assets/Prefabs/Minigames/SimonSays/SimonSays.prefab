@@ -495,6 +495,9 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 9145086241029532764, guid: f3c3040d3df0b9d45b51c1b9c7f3bc28, type: 3}
+      insertIndex: 1
+      addedObject: {fileID: 7980004393203506301}
+    - targetCorrespondingSourceObject: {fileID: 9145086241029532764, guid: f3c3040d3df0b9d45b51c1b9c7f3bc28, type: 3}
       insertIndex: -1
       addedObject: {fileID: 5188895148714931509}
   m_SourcePrefab: {fileID: 100100000, guid: f3c3040d3df0b9d45b51c1b9c7f3bc28, type: 3}
@@ -523,6 +526,18 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 9145086241029532764, guid: f3c3040d3df0b9d45b51c1b9c7f3bc28, type: 3}
   m_PrefabInstance: {fileID: 1194476283716624434}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &7980004393203506301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7960814526443441262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 403def46691c9d442bd4bcbe4acc9781, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &5188895148714931509
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -537,3 +552,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   videoPlayer: {fileID: 7099285592524299409}
   videoClip: {fileID: 32900000, guid: a5b838fc77e041042a83b3d73a9e3655, type: 3}
+  onVideoFinished:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 7980004393203506301}
+        m_TargetAssemblyTypeName: MiniGame.ToggleMiniGames, Assembly-CSharp
+        m_MethodName: ToggleSimonSays
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
