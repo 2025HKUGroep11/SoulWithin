@@ -11,6 +11,8 @@ public class Note : MonoBehaviour
     private bool _inHitZone = false;
     private RectTransform _rectTransform;
 
+    [SerializeField] private GameObject _parrentCanva;
+
     private NoteSpawner _spawnerScript;
 
     private void Awake()
@@ -28,12 +30,14 @@ public class Note : MonoBehaviour
 
         if (_inHitZone && Input.GetMouseButtonDown(0))
         {
-            Debug.Log("not is hit");
+            Debug.Log("HIT");
+            _parrentCanva.SetActive(false);
             Destroy(gameObject);
         }
         if (_rectTransform.anchoredPosition.x < _hitZoneRect.anchoredPosition.x - _hitRange)
         {
             _spawnerScript.AddMissPoint();
+            _parrentCanva.SetActive(false);
             Destroy(gameObject);
         }
 
@@ -41,10 +45,6 @@ public class Note : MonoBehaviour
         if(_inHitZone)
         {
             _rectTransform.GetComponent<Image>().color = Color.green;
-        }
-        else
-        {
-            _rectTransform.GetComponent<Image>().color = Color.red;
         }
     }
 

@@ -33,9 +33,9 @@ public class NoteSpawner : MonoBehaviour
 
     public void AddMissPoint()
     {
-        _missPoint++;
+        _missPoint = _missPoint + 1;
         Debug.Log("Miss point");
-        if(_missPoint <= _maxMiss)
+        if(_missPoint >= _maxMiss)
         {
             Debug.Log("game over try again");
         }
