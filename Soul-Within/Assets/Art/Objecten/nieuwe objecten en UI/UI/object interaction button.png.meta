@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 7e2a87eaf5693224f82ef5ddc812a2ee
+guid: 575b13584a72aec4b8203b039784b80b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6053414285726066652
-    second: Achtergrond3_0
+      213: 1112840900545694735
+    second: object interaction button_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Achtergrond3_0
+      name: object interaction button_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1485
-        height: 1080
+        x: 676
+        y: 311
+        width: 558
+        height: 481
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cd72af2783c020450800000000000000
-      internalID: 6053414285726066652
+      spriteID: f0c4d8827ea917f00800000000000000
+      internalID: 1112840900545694735
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Achtergrond3_0: 6053414285726066652
+      object interaction button_0: 1112840900545694735
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

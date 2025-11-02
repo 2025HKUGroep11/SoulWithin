@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: 7e2a87eaf5693224f82ef5ddc812a2ee
+guid: 4b49569292980364d9b63730ed9515b9
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6053414285726066652
-    second: Achtergrond3_0
+      213: 914061594137149862
+    second: 2 minigames done_0
+  - first:
+      213: 5033297027870195892
+    second: 2 minigames done_1
+  - first:
+      213: 2512073719930739905
+    second: 2 minigames done_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +106,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Achtergrond3_0
+      name: 2 minigames done_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 1485
-        height: 1080
+        y: 293
+        width: 948
+        height: 787
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +121,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cd72af2783c020450800000000000000
-      internalID: 6053414285726066652
+      spriteID: 6a14f5d4d266fac00800000000000000
+      internalID: 914061594137149862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2 minigames done_1
+      rect:
+        serializedVersion: 2
+        x: 1555
+        y: 0
+        width: 365
+        height: 628
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b08b33bafcd9d540800000000000000
+      internalID: 5033297027870195892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2 minigames done_2
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 0
+        width: 68
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ccd01e1dbdacd220800000000000000
+      internalID: 2512073719930739905
       vertices: []
       indices: 
       edges: []
@@ -135,7 +185,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Achtergrond3_0: 6053414285726066652
+      2 minigames done_0: 914061594137149862
+      2 minigames done_1: 5033297027870195892
+      2 minigames done_2: 2512073719930739905
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
