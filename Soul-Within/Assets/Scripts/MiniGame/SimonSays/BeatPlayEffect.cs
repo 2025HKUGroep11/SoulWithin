@@ -1,7 +1,6 @@
-using System;
 using UnityEngine;
 
-namespace MiniGames.SimonSays
+namespace MiniGame.SimonSays
 {
     public class BeatPlayEffect : MonoBehaviour
     {

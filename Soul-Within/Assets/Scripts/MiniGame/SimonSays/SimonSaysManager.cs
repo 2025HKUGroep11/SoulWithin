@@ -1,13 +1,17 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Enums;
+using Managers;
 using UnityEngine;
 using UnityEngine.Events;
 
-namespace MiniGames.SimonSays
+namespace MiniGame.SimonSays
 {
     public class SimonSaysManager : MonoBehaviour
     {
+        [SerializeField] private PrerequisiteMiniGames miniGame;
+        
         [SerializeField] private float waitTimeBetweenBeats;
         [SerializeField] private float waitTimeBetweenRounds;
         [SerializeField] private List<SimonSaysBeats> beats = new List<SimonSaysBeats>();
@@ -86,6 +90,7 @@ namespace MiniGames.SimonSays
         private IEnumerator CompleteGame()
         {
             yield return new WaitForSeconds(waitTimeBetweenRounds);
+            MiniGameManager.Instance.CompleteMiniGame(miniGame, true);
             onCompleteGame?.Invoke();
         }
     }
