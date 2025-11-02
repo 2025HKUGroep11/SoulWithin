@@ -1,0 +1,2561 @@
+fileFormatVersion: 2
+guid: 2788477dc29e4fd4e8653149d14c14cf
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3851972388440804760
+    second: Achtergrond03_0
+  - first:
+      213: 967121115250936705
+    second: Achtergrond03_1
+  - first:
+      213: -7970968637244053156
+    second: Achtergrond03_2
+  - first:
+      213: 5668147087297025680
+    second: Achtergrond03_3
+  - first:
+      213: -3719193983419830301
+    second: Achtergrond03_4
+  - first:
+      213: 3894576039055961875
+    second: Achtergrond03_5
+  - first:
+      213: 2255928596131310304
+    second: Achtergrond03_6
+  - first:
+      213: 8795292930317472315
+    second: Achtergrond03_7
+  - first:
+      213: -8104897210073480966
+    second: Achtergrond03_8
+  - first:
+      213: 9170235118791346266
+    second: Achtergrond03_9
+  - first:
+      213: -5366650648690952423
+    second: Achtergrond03_10
+  - first:
+      213: 2169384371536280061
+    second: Achtergrond03_11
+  - first:
+      213: -255385700806204208
+    second: Achtergrond03_12
+  - first:
+      213: -3380202276262489515
+    second: Achtergrond03_13
+  - first:
+      213: 8998323544305600111
+    second: Achtergrond03_14
+  - first:
+      213: -396313636551686459
+    second: Achtergrond03_15
+  - first:
+      213: -1011583688159086786
+    second: Achtergrond03_16
+  - first:
+      213: 563458825072154579
+    second: Achtergrond03_17
+  - first:
+      213: -5481945338283608354
+    second: Achtergrond03_18
+  - first:
+      213: -2468571996812001714
+    second: Achtergrond03_19
+  - first:
+      213: -426114305343759081
+    second: Achtergrond03_20
+  - first:
+      213: -4265405377758318295
+    second: Achtergrond03_21
+  - first:
+      213: -3823246642624487239
+    second: Achtergrond03_22
+  - first:
+      213: 4874108730977307862
+    second: Achtergrond03_23
+  - first:
+      213: -5456919517496323703
+    second: Achtergrond03_24
+  - first:
+      213: 2663235880923065032
+    second: Achtergrond03_25
+  - first:
+      213: -1325583268331045839
+    second: Achtergrond03_26
+  - first:
+      213: -7738088616530929635
+    second: Achtergrond03_27
+  - first:
+      213: 375535622170674129
+    second: Achtergrond03_28
+  - first:
+      213: -1992302487168773606
+    second: Achtergrond03_29
+  - first:
+      213: 3891759802828115506
+    second: Achtergrond03_30
+  - first:
+      213: 2620784760423590300
+    second: Achtergrond03_31
+  - first:
+      213: -734422854049952354
+    second: Achtergrond03_32
+  - first:
+      213: -49495339921473898
+    second: Achtergrond03_33
+  - first:
+      213: -2066999993662073664
+    second: Achtergrond03_34
+  - first:
+      213: 3714710192663816327
+    second: Achtergrond03_35
+  - first:
+      213: -2474874300213551873
+    second: Achtergrond03_36
+  - first:
+      213: 3301908184998520597
+    second: Achtergrond03_37
+  - first:
+      213: 7342754197638172075
+    second: Achtergrond03_38
+  - first:
+      213: -3313628148916606595
+    second: Achtergrond03_39
+  - first:
+      213: -3555875280220143305
+    second: Achtergrond03_40
+  - first:
+      213: -221385358991371755
+    second: Achtergrond03_41
+  - first:
+      213: 8005655760867870457
+    second: Achtergrond03_42
+  - first:
+      213: -9208365937317296204
+    second: Achtergrond03_43
+  - first:
+      213: -2281773981349649004
+    second: Achtergrond03_44
+  - first:
+      213: -7197507027618625655
+    second: Achtergrond03_45
+  - first:
+      213: -3940363683504013393
+    second: Achtergrond03_46
+  - first:
+      213: 330091946255707778
+    second: Achtergrond03_47
+  - first:
+      213: 4677051539312940118
+    second: Achtergrond03_48
+  - first:
+      213: 3866102740078850373
+    second: Achtergrond03_49
+  - first:
+      213: 4615622046657945062
+    second: Achtergrond03_50
+  - first:
+      213: -4621237724698675322
+    second: Achtergrond03_51
+  - first:
+      213: -1872297556384504877
+    second: Achtergrond03_52
+  - first:
+      213: -4265055994292077813
+    second: Achtergrond03_53
+  - first:
+      213: 1057246707661259412
+    second: Achtergrond03_54
+  - first:
+      213: 5349734685616037931
+    second: Achtergrond03_55
+  - first:
+      213: -2809625027517222196
+    second: Achtergrond03_56
+  - first:
+      213: 500860417547640799
+    second: Achtergrond03_57
+  - first:
+      213: -1274665105634649972
+    second: Achtergrond03_58
+  - first:
+      213: 8259083204325709826
+    second: Achtergrond03_59
+  - first:
+      213: 2869168135436681584
+    second: Achtergrond03_60
+  - first:
+      213: -2502358677101617119
+    second: Achtergrond03_61
+  - first:
+      213: 2320788823534143794
+    second: Achtergrond03_62
+  - first:
+      213: 3423691927313622017
+    second: Achtergrond03_63
+  - first:
+      213: -6660064690178480235
+    second: Achtergrond03_64
+  - first:
+      213: -6169774799993359361
+    second: Achtergrond03_65
+  - first:
+      213: -1538097494184322528
+    second: Achtergrond03_66
+  - first:
+      213: 2440285108680844941
+    second: Achtergrond03_67
+  - first:
+      213: -784780425044562202
+    second: Achtergrond03_68
+  - first:
+      213: -625978983394719533
+    second: Achtergrond03_69
+  - first:
+      213: -7414091899498667372
+    second: Achtergrond03_70
+  - first:
+      213: -7729687374297616009
+    second: Achtergrond03_71
+  - first:
+      213: 2616497348037910730
+    second: Achtergrond03_72
+  - first:
+      213: -8158537392341811598
+    second: Achtergrond03_73
+  - first:
+      213: 6859568288718694128
+    second: Achtergrond03_74
+  - first:
+      213: -8835333297761386047
+    second: Achtergrond03_75
+  - first:
+      213: 1650104076765032596
+    second: Achtergrond03_76
+  - first:
+      213: -7075137971452872779
+    second: Achtergrond03_77
+  - first:
+      213: 2107712524398607821
+    second: Achtergrond03_78
+  - first:
+      213: -3376489300321992020
+    second: Achtergrond03_79
+  - first:
+      213: -5574503227251497223
+    second: Achtergrond03_80
+  - first:
+      213: 1420277474917231394
+    second: Achtergrond03_81
+  - first:
+      213: 8992454556339930690
+    second: Achtergrond03_82
+  - first:
+      213: -4180255537778025172
+    second: Achtergrond03_83
+  - first:
+      213: 7795275218490887048
+    second: Achtergrond03_84
+  - first:
+      213: -7046205554753645654
+    second: Achtergrond03_85
+  - first:
+      213: 2990166909655838319
+    second: Achtergrond03_86
+  - first:
+      213: -848831571926884584
+    second: Achtergrond03_87
+  - first:
+      213: -3946590172962244765
+    second: Achtergrond03_88
+  - first:
+      213: -7516082144367175786
+    second: Achtergrond03_89
+  - first:
+      213: -4358548392102868826
+    second: Achtergrond03_90
+  - first:
+      213: -6404014114821977559
+    second: Achtergrond03_91
+  - first:
+      213: 3905110446929629734
+    second: Achtergrond03_92
+  - first:
+      213: 5296661895960527337
+    second: Achtergrond03_93
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Achtergrond03_0
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 524
+        width: 31
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8627f56758b0b8ac0800000000000000
+      internalID: -3851972388440804760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Achtergrond03_1
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 542
+        width: 7
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18bcf41c787eb6d00800000000000000
+      internalID: 967121115250936705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Achtergrond03_2
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 506
+        width: 46
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c59e945a14e616190800000000000000
+      internalID: -7970968637244053156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Achtergrond03_3
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 255
+        width: 137
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0961109aebd49ae40800000000000000
+      internalID: 5668147087297025680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Achtergrond03_4
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 516
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3efad77f6c4c26cc0800000000000000
+      internalID: -3719193983419830301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Achtergrond03_5
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 486
+        width: 20
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31fadaee5405c0630800000000000000
+      internalID: 3894576039055961875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Achtergrond03_6
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 347
+        width: 16
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ea6d031b1bae4f10800000000000000
+      internalID: 2255928596131310304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Achtergrond03_7
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 439
+        width: 78
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b32d31712582f0a70800000000000000
+      internalID: 8795292930317472315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Achtergrond03_8
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 482
+        width: 46
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af00484ddee958f80800000000000000
+      internalID: -8104897210073480966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Achtergrond03_9
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 481
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a58ce5a2148334f70800000000000000
+      internalID: 9170235118791346266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Achtergrond03_10
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 407
+        width: 31
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 917f7233ba3d585b0800000000000000
+      internalID: -5366650648690952423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Achtergrond03_11
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 426
+        width: 15
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df934be87933b1e10800000000000000
+      internalID: 2169384371536280061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Achtergrond03_12
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 424
+        width: 63
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d46bb6ee00b47cf0800000000000000
+      internalID: -255385700806204208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Achtergrond03_13
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 397
+        width: 41
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 552586650fb1711d0800000000000000
+      internalID: -3380202276262489515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Achtergrond03_14
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 438
+        width: 60
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f668e50a69770ec70800000000000000
+      internalID: 8998323544305600111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Achtergrond03_15
+      rect:
+        serializedVersion: 2
+        x: 1159
+        y: 366
+        width: 68
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c681b9e8d2008af0800000000000000
+      internalID: -396313636551686459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Achtergrond03_16
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 411
+        width: 6
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e37b2b6cef126f1f0800000000000000
+      internalID: -1011583688159086786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Achtergrond03_17
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 393
+        width: 103
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d71cf9e0dec1d700800000000000000
+      internalID: 563458825072154579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Achtergrond03_18
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 367
+        width: 78
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed63f7962c73ce3b0800000000000000
+      internalID: -5481945338283608354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Achtergrond03_19
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 417
+        width: 22
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4e3b8319deddbdd0800000000000000
+      internalID: -2468571996812001714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Achtergrond03_20
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 444
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71dd5440c43261af0800000000000000
+      internalID: -426114305343759081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Achtergrond03_21
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 423
+        width: 57
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 921bca3786c3ec4c0800000000000000
+      internalID: -4265405377758318295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Achtergrond03_22
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 402
+        width: 26
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b0a9a95f6911fac0800000000000000
+      internalID: -3823246642624487239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Achtergrond03_23
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 401
+        width: 17
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dc4882111054a340800000000000000
+      internalID: 4874108730977307862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Achtergrond03_24
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 391
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9815cbf5c902544b0800000000000000
+      internalID: -5456919517496323703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Achtergrond03_25
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 353
+        width: 100
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ca6e7b5ce6b5f420800000000000000
+      internalID: 2663235880923065032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Achtergrond03_26
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 291
+        width: 99
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13c3dea6a059a9de0800000000000000
+      internalID: -1325583268331045839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Achtergrond03_27
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 385
+        width: 10
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d181e23c669cc9490800000000000000
+      internalID: -7738088616530929635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Achtergrond03_28
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 348
+        width: 30
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d30dff98ab263500800000000000000
+      internalID: 375535622170674129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Achtergrond03_29
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 366
+        width: 14
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a129d2f817be954e0800000000000000
+      internalID: -1992302487168773606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Achtergrond03_30
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 307
+        width: 46
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23ec6b6dbee420630800000000000000
+      internalID: 3891759802828115506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Achtergrond03_31
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 315
+        width: 32
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c992ec5aad5ee5420800000000000000
+      internalID: 2620784760423590300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Achtergrond03_32
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 360
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9d8c6d2e4ecec5f0800000000000000
+      internalID: -734422854049952354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Achtergrond03_33
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 291
+        width: 34
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69e71f52048205ff0800000000000000
+      internalID: -49495339921473898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Achtergrond03_34
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 253
+        width: 85
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c4990b057a8053e0800000000000000
+      internalID: -2066999993662073664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Achtergrond03_35
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 335
+        width: 27
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 788ef352d3d4d8330800000000000000
+      internalID: 3714710192663816327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Achtergrond03_36
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 307
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffc1708bfea77add0800000000000000
+      internalID: -2474874300213551873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Achtergrond03_37
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 306
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 517aacffffbb2dd20800000000000000
+      internalID: 3301908184998520597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Achtergrond03_38
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 296
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bad4b370a04b6e560800000000000000
+      internalID: 7342754197638172075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Achtergrond03_39
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 195
+        width: 89
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d79271241c0a302d0800000000000000
+      internalID: -3313628148916606595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Achtergrond03_40
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 262
+        width: 79
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 731c2e0c54ef6aec0800000000000000
+      internalID: -3555875280220143305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Achtergrond03_41
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 74
+        width: 188
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 512d8de503b7decf0800000000000000
+      internalID: -221385358991371755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Achtergrond03_42
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 267
+        width: 56
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f6c69caf7dc91f60800000000000000
+      internalID: 8005655760867870457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Achtergrond03_43
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 257
+        width: 12
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b74560d7ff453080800000000000000
+      internalID: -9208365937317296204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Achtergrond03_44
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 290
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 495ecef37a28550e0800000000000000
+      internalID: -2281773981349649004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Achtergrond03_45
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 296
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9870a6e0e715d1c90800000000000000
+      internalID: -7197507027618625655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Achtergrond03_46
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 187
+        width: 20
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fafb4e65b140159c0800000000000000
+      internalID: -3940363683504013393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Achtergrond03_47
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 238
+        width: 39
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28ee9cf40e8b49400800000000000000
+      internalID: 330091946255707778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Achtergrond03_48
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 126
+        width: 159
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65411fc489938e040800000000000000
+      internalID: 4677051539312940118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Achtergrond03_49
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 114
+        width: 126
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 541709765f727a530800000000000000
+      internalID: 3866102740078850373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Achtergrond03_50
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 287
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ed128cfbcbfd0040800000000000000
+      internalID: 4615622046657945062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Achtergrond03_51
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 142
+        width: 24
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68773b416c01edfb0800000000000000
+      internalID: -4621237724698675322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Achtergrond03_52
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 199
+        width: 12
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d3aed5da434406e0800000000000000
+      internalID: -1872297556384504877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Achtergrond03_53
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 132
+        width: 73
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0bf111ab2a7fc4c0800000000000000
+      internalID: -4265055994292077813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Achtergrond03_54
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 17
+        width: 93
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 492c91277481cae00800000000000000
+      internalID: 1057246707661259412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Achtergrond03_55
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 199
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b20eaba3a531e3a40800000000000000
+      internalID: 5349734685616037931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Achtergrond03_56
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 107
+        width: 93
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc2f9ca6ce43209d0800000000000000
+      internalID: -2809625027517222196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Achtergrond03_57
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 119
+        width: 28
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdf1bf565e963f600800000000000000
+      internalID: 500860417547640799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Achtergrond03_58
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 123
+        width: 74
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c889f0307da7f4ee0800000000000000
+      internalID: -1274665105634649972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Achtergrond03_59
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 85
+        width: 156
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2089a347a682e9270800000000000000
+      internalID: 8259083204325709826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Achtergrond03_60
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 163
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 071c299b73551d720800000000000000
+      internalID: 2869168135436681584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Achtergrond03_61
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 123
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 120edbe8a06d54dd0800000000000000
+      internalID: -2502358677101617119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Achtergrond03_62
+      rect:
+        serializedVersion: 2
+        x: 1267
+        y: 64
+        width: 70
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23903719329153020800000000000000
+      internalID: 2320788823534143794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Achtergrond03_63
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 70
+        width: 28
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 104a6eb1ba5638f20800000000000000
+      internalID: 3423691927313622017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Achtergrond03_64
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 132
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5972ac86372b293a0800000000000000
+      internalID: -6660064690178480235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Achtergrond03_65
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 42
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff33d3e128e806aa0800000000000000
+      internalID: -6169774799993359361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Achtergrond03_66
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 91
+        width: 13
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02a993d6a7497aae0800000000000000
+      internalID: -1538097494184322528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Achtergrond03_67
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 67
+        width: 13
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d86e89d8062add120800000000000000
+      internalID: 2440285108680844941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Achtergrond03_68
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 79
+        width: 7
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6eee9828c56eb15f0800000000000000
+      internalID: -784780425044562202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Achtergrond03_69
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 52
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d8c5e16e631057f0800000000000000
+      internalID: -625978983394719533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Achtergrond03_70
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 75
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 492e74ee2badb1990800000000000000
+      internalID: -7414091899498667372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Achtergrond03_71
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 74
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7713b266942aab490800000000000000
+      internalID: -7729687374297616009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Achtergrond03_72
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 70
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac02d89a97aaf4420800000000000000
+      internalID: 2616497348037910730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Achtergrond03_73
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 81
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27e79baa77d07ce80800000000000000
+      internalID: -8158537392341811598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Achtergrond03_74
+      rect:
+        serializedVersion: 2
+        x: 1175
+        y: 17
+        width: 55
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f6ac99d305123f50800000000000000
+      internalID: 6859568288718694128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Achtergrond03_75
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 66
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c180c26d27926580800000000000000
+      internalID: -8835333297761386047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Achtergrond03_76
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 61
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 490f00a4ae856e610800000000000000
+      internalID: 1650104076765032596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Achtergrond03_77
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 52
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b77caa208f00dd90800000000000000
+      internalID: -7075137971452872779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Achtergrond03_78
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 63
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcdbb61bf59104d10800000000000000
+      internalID: 2107712524398607821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Achtergrond03_79
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 52
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca2866aeedc4421d0800000000000000
+      internalID: -3376489300321992020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Achtergrond03_80
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 51
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f6e76c89d263a2b0800000000000000
+      internalID: -5574503227251497223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Achtergrond03_81
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 17
+        width: 15
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22b2ee6a6d6d5b310800000000000000
+      internalID: 1420277474917231394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Achtergrond03_82
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 32
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2460c7166cd9bcc70800000000000000
+      internalID: 8992454556339930690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Achtergrond03_83
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 21
+        width: 33
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2d91608cbfbcf5c0800000000000000
+      internalID: -4180255537778025172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Achtergrond03_84
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 28
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88b0e8492816e2c60800000000000000
+      internalID: 7795275218490887048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Achtergrond03_85
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 34
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa3568e5169d63e90800000000000000
+      internalID: -7046205554753645654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Achtergrond03_86
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 13
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6ee92536f43f7920800000000000000
+      internalID: 2990166909655838319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Achtergrond03_87
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 15
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81f5921ce285834f0800000000000000
+      internalID: -848831571926884584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Achtergrond03_88
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 23
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 367b98ac525ea39c0800000000000000
+      internalID: -3946590172962244765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Achtergrond03_89
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 0
+        width: 37
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69796529c1381b790800000000000000
+      internalID: -7516082144367175786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Achtergrond03_90
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 3
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a8cb5874535383c0800000000000000
+      internalID: -4358548392102868826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Achtergrond03_91
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 8
+        width: 23
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92ac27da71f5027a0800000000000000
+      internalID: -6404014114821977559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Achtergrond03_92
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 1
+        width: 31
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62258e5e24db13630800000000000000
+      internalID: 3905110446929629734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Achtergrond03_93
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 7
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e103147ee5818940800000000000000
+      internalID: 5296661895960527337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Achtergrond03_0: -3851972388440804760
+      Achtergrond03_1: 967121115250936705
+      Achtergrond03_10: -5366650648690952423
+      Achtergrond03_11: 2169384371536280061
+      Achtergrond03_12: -255385700806204208
+      Achtergrond03_13: -3380202276262489515
+      Achtergrond03_14: 8998323544305600111
+      Achtergrond03_15: -396313636551686459
+      Achtergrond03_16: -1011583688159086786
+      Achtergrond03_17: 563458825072154579
+      Achtergrond03_18: -5481945338283608354
+      Achtergrond03_19: -2468571996812001714
+      Achtergrond03_2: -7970968637244053156
+      Achtergrond03_20: -426114305343759081
+      Achtergrond03_21: -4265405377758318295
+      Achtergrond03_22: -3823246642624487239
+      Achtergrond03_23: 4874108730977307862
+      Achtergrond03_24: -5456919517496323703
+      Achtergrond03_25: 2663235880923065032
+      Achtergrond03_26: -1325583268331045839
+      Achtergrond03_27: -7738088616530929635
+      Achtergrond03_28: 375535622170674129
+      Achtergrond03_29: -1992302487168773606
+      Achtergrond03_3: 5668147087297025680
+      Achtergrond03_30: 3891759802828115506
+      Achtergrond03_31: 2620784760423590300
+      Achtergrond03_32: -734422854049952354
+      Achtergrond03_33: -49495339921473898
+      Achtergrond03_34: -2066999993662073664
+      Achtergrond03_35: 3714710192663816327
+      Achtergrond03_36: -2474874300213551873
+      Achtergrond03_37: 3301908184998520597
+      Achtergrond03_38: 7342754197638172075
+      Achtergrond03_39: -3313628148916606595
+      Achtergrond03_4: -3719193983419830301
+      Achtergrond03_40: -3555875280220143305
+      Achtergrond03_41: -221385358991371755
+      Achtergrond03_42: 8005655760867870457
+      Achtergrond03_43: -9208365937317296204
+      Achtergrond03_44: -2281773981349649004
+      Achtergrond03_45: -7197507027618625655
+      Achtergrond03_46: -3940363683504013393
+      Achtergrond03_47: 330091946255707778
+      Achtergrond03_48: 4677051539312940118
+      Achtergrond03_49: 3866102740078850373
+      Achtergrond03_5: 3894576039055961875
+      Achtergrond03_50: 4615622046657945062
+      Achtergrond03_51: -4621237724698675322
+      Achtergrond03_52: -1872297556384504877
+      Achtergrond03_53: -4265055994292077813
+      Achtergrond03_54: 1057246707661259412
+      Achtergrond03_55: 5349734685616037931
+      Achtergrond03_56: -2809625027517222196
+      Achtergrond03_57: 500860417547640799
+      Achtergrond03_58: -1274665105634649972
+      Achtergrond03_59: 8259083204325709826
+      Achtergrond03_6: 2255928596131310304
+      Achtergrond03_60: 2869168135436681584
+      Achtergrond03_61: -2502358677101617119
+      Achtergrond03_62: 2320788823534143794
+      Achtergrond03_63: 3423691927313622017
+      Achtergrond03_64: -6660064690178480235
+      Achtergrond03_65: -6169774799993359361
+      Achtergrond03_66: -1538097494184322528
+      Achtergrond03_67: 2440285108680844941
+      Achtergrond03_68: -784780425044562202
+      Achtergrond03_69: -625978983394719533
+      Achtergrond03_7: 8795292930317472315
+      Achtergrond03_70: -7414091899498667372
+      Achtergrond03_71: -7729687374297616009
+      Achtergrond03_72: 2616497348037910730
+      Achtergrond03_73: -8158537392341811598
+      Achtergrond03_74: 6859568288718694128
+      Achtergrond03_75: -8835333297761386047
+      Achtergrond03_76: 1650104076765032596
+      Achtergrond03_77: -7075137971452872779
+      Achtergrond03_78: 2107712524398607821
+      Achtergrond03_79: -3376489300321992020
+      Achtergrond03_8: -8104897210073480966
+      Achtergrond03_80: -5574503227251497223
+      Achtergrond03_81: 1420277474917231394
+      Achtergrond03_82: 8992454556339930690
+      Achtergrond03_83: -4180255537778025172
+      Achtergrond03_84: 7795275218490887048
+      Achtergrond03_85: -7046205554753645654
+      Achtergrond03_86: 2990166909655838319
+      Achtergrond03_87: -848831571926884584
+      Achtergrond03_88: -3946590172962244765
+      Achtergrond03_89: -7516082144367175786
+      Achtergrond03_9: 9170235118791346266
+      Achtergrond03_90: -4358548392102868826
+      Achtergrond03_91: -6404014114821977559
+      Achtergrond03_92: 3905110446929629734
+      Achtergrond03_93: 5296661895960527337
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

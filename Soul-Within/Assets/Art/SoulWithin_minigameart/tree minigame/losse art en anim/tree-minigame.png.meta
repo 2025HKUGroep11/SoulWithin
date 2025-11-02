@@ -1,0 +1,637 @@
+fileFormatVersion: 2
+guid: 1c8bca6b11cf7dd428ddaddf81f949db
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7979575301620576043
+    second: tree-minigame_0
+  - first:
+      213: 4907607049623480825
+    second: tree-minigame_1
+  - first:
+      213: -2646973813466782202
+    second: tree-minigame_2
+  - first:
+      213: -6787685359914252339
+    second: tree-minigame_3
+  - first:
+      213: 6527996622385825436
+    second: tree-minigame_4
+  - first:
+      213: -1326094385175524939
+    second: tree-minigame_5
+  - first:
+      213: -842537357417405269
+    second: tree-minigame_6
+  - first:
+      213: -6488348536823063645
+    second: tree-minigame_7
+  - first:
+      213: -6374495269337849797
+    second: tree-minigame_8
+  - first:
+      213: 7926091338106138204
+    second: tree-minigame_9
+  - first:
+      213: 8249181108034300800
+    second: tree-minigame_10
+  - first:
+      213: -4329049076439098721
+    second: tree-minigame_11
+  - first:
+      213: -8892459117890640325
+    second: tree-minigame_12
+  - first:
+      213: 8354029256105233887
+    second: tree-minigame_13
+  - first:
+      213: 1544825084142859006
+    second: tree-minigame_14
+  - first:
+      213: 5958097366146355877
+    second: tree-minigame_15
+  - first:
+      213: -5040200596448552152
+    second: tree-minigame_16
+  - first:
+      213: -6108369448306059674
+    second: tree-minigame_17
+  - first:
+      213: 3838000252588021786
+    second: tree-minigame_18
+  - first:
+      213: 2088783649880449599
+    second: tree-minigame_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tree-minigame_0
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 780
+        width: 541
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2f239f85752dbe60800000000000000
+      internalID: 7979575301620576043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree-minigame_1
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 956
+        width: 102
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f9a20a2c925b1440800000000000000
+      internalID: 4907607049623480825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree-minigame_2
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 1030
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6062d86475f044bd0800000000000000
+      internalID: -2646973813466782202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree-minigame_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 364
+        width: 363
+        height: 615
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc7013bb02c4dc1a0800000000000000
+      internalID: -6787685359914252339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree-minigame_4
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 0
+        width: 589
+        height: 972
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c96c14c575a189a50800000000000000
+      internalID: 6527996622385825436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree-minigame_5
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 956
+        width: 90
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b909f0ce24c89de0800000000000000
+      internalID: -1326094385175524939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree-minigame_6
+      rect:
+        serializedVersion: 2
+        x: 1228
+        y: 949
+        width: 149
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba4a325ccb4be44f0800000000000000
+      internalID: -842537357417405269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree-minigame_7
+      rect:
+        serializedVersion: 2
+        x: 1610
+        y: 942
+        width: 60
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ab5cbbe161c4f5a0800000000000000
+      internalID: -6488348536823063645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree-minigame_8
+      rect:
+        serializedVersion: 2
+        x: 1771
+        y: 935
+        width: 50
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b30a5b8735e3987a0800000000000000
+      internalID: -6374495269337849797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree-minigame_9
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 843
+        width: 641
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5eed19e3122ffd60800000000000000
+      internalID: 7926091338106138204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree-minigame_10
+      rect:
+        serializedVersion: 2
+        x: 1537
+        y: 170
+        width: 159
+        height: 751
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08b6f30038afa7270800000000000000
+      internalID: 8249181108034300800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree-minigame_11
+      rect:
+        serializedVersion: 2
+        x: 1758
+        y: 604
+        width: 78
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9a5d9f1dc02ce3c0800000000000000
+      internalID: -4329049076439098721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree-minigame_12
+      rect:
+        serializedVersion: 2
+        x: 1817
+        y: 789
+        width: 86
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b36e17aeb83a79480800000000000000
+      internalID: -8892459117890640325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree-minigame_13
+      rect:
+        serializedVersion: 2
+        x: 1881
+        y: 705
+        width: 34
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdd8f5dc8597fe370800000000000000
+      internalID: 8354029256105233887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree-minigame_14
+      rect:
+        serializedVersion: 2
+        x: 1820
+        y: 578
+        width: 95
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef2b27caa32507510800000000000000
+      internalID: 1544825084142859006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree-minigame_15
+      rect:
+        serializedVersion: 2
+        x: 1869
+        y: 283
+        width: 43
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a21856bcf96fa250800000000000000
+      internalID: 5958097366146355877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree-minigame_16
+      rect:
+        serializedVersion: 2
+        x: 1869
+        y: 166
+        width: 46
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82bd8fbf24c9d0ab0800000000000000
+      internalID: -5040200596448552152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree-minigame_17
+      rect:
+        serializedVersion: 2
+        x: 1522
+        y: 12
+        width: 123
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6665edca956ba3ba0800000000000000
+      internalID: -6108369448306059674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree-minigame_18
+      rect:
+        serializedVersion: 2
+        x: 1708
+        y: 2
+        width: 38
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a185e5725e0534530800000000000000
+      internalID: 3838000252588021786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree-minigame_19
+      rect:
+        serializedVersion: 2
+        x: 1899
+        y: 107
+        width: 16
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f32a4c7a9a9dcfc10800000000000000
+      internalID: 2088783649880449599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      tree-minigame_0: 7979575301620576043
+      tree-minigame_1: 4907607049623480825
+      tree-minigame_10: 8249181108034300800
+      tree-minigame_11: -4329049076439098721
+      tree-minigame_12: -8892459117890640325
+      tree-minigame_13: 8354029256105233887
+      tree-minigame_14: 1544825084142859006
+      tree-minigame_15: 5958097366146355877
+      tree-minigame_16: -5040200596448552152
+      tree-minigame_17: -6108369448306059674
+      tree-minigame_18: 3838000252588021786
+      tree-minigame_19: 2088783649880449599
+      tree-minigame_2: -2646973813466782202
+      tree-minigame_3: -6787685359914252339
+      tree-minigame_4: 6527996622385825436
+      tree-minigame_5: -1326094385175524939
+      tree-minigame_6: -842537357417405269
+      tree-minigame_7: -6488348536823063645
+      tree-minigame_8: -6374495269337849797
+      tree-minigame_9: 7926091338106138204
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
