@@ -11,10 +11,18 @@ namespace Video
         [SerializeField] private VideoPlayer videoPlayer;
         [SerializeField] private VideoClip videoClip;
         
+        [SerializeField] private bool playOnStart;
         [SerializeField] public UnityEvent onVideoFinished;
+
+        private void Start()
+        {
+            if (!playOnStart) return;
+            StartVideo(false);
+        }
 
         public void StartVideo(bool isLooping)
         {
+            videoPlayer.gameObject.SetActive(true);
             videoPlayer.isLooping = isLooping;
             videoPlayer.clip = videoClip;
             videoPlayer.Play();
@@ -25,6 +33,12 @@ namespace Video
         {
             yield return new WaitForSeconds(videoDuration);
             onVideoFinished?.Invoke();
+        }
+
+        public void StopVideo()
+        {
+            videoPlayer.Stop();
+            videoPlayer.gameObject.SetActive(false);
         }
     }
 }

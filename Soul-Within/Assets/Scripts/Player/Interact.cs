@@ -11,10 +11,9 @@ namespace Player
         private PlayerControls inputControls;
  
         [SerializeField] UnityEvent onInteract;
-        [SerializeField] private TMP_Text textF;
+        [SerializeField] private GameObject objectInteractionUI;
         [SerializeField] private string playerTag;
 
-        // Start is called once before the first execution of Update after the MonoBehaviour is created
         private void Awake()
         {
             inputControls = new PlayerControls();
@@ -40,9 +39,9 @@ namespace Player
                 _playerInRange = true;
                 Debug.Log("Player in range!");
 
-                if (textF != null)
+                if (objectInteractionUI != null)
                 {
-                    textF.gameObject.SetActive(true);
+                    objectInteractionUI.gameObject.SetActive(true);
                 }
             }
         }
@@ -52,9 +51,9 @@ namespace Player
             if (other.CompareTag(playerTag))
             {
                 _playerInRange = false;
-                if (textF != null)
+                if (objectInteractionUI != null)
                 {
-                    textF.gameObject.SetActive(false);
+                    objectInteractionUI.gameObject.SetActive(false);
                 }
             }
         }
@@ -63,9 +62,9 @@ namespace Player
             if (_playerInRange)
             {
                 onInteract?.Invoke();
-                if (textF != null)
+                if (objectInteractionUI != null)
                 {
-                    textF.gameObject.SetActive(false);
+                    objectInteractionUI.gameObject.SetActive(false);
                 }
             }
         }
