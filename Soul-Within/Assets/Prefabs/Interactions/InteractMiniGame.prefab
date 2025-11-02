@@ -118,6 +118,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   textF: {fileID: 0}
+  playerTag: player
 --- !u!114 &5954792494686673053
 MonoBehaviour:
   m_ObjectHideFlags: 0

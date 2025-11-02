@@ -12,6 +12,7 @@ namespace Player
  
         [SerializeField] UnityEvent onInteract;
         [SerializeField] private TMP_Text textF;
+        [SerializeField] private string playerTag;
 
         // Start is called once before the first execution of Update after the MonoBehaviour is created
         private void Awake()
@@ -34,7 +35,7 @@ namespace Player
         }
         private void OnTriggerEnter2D(Collider2D other)
         {
-            if (other.CompareTag("Player"))
+            if (other.CompareTag(playerTag))
             {
                 _playerInRange = true;
                 Debug.Log("Player in range!");
@@ -48,7 +49,7 @@ namespace Player
 
         private void OnTriggerExit2D(Collider2D other)
         {
-            if (other.CompareTag("Player"))
+            if (other.CompareTag(playerTag))
             {
                 _playerInRange = false;
                 if (textF != null)
