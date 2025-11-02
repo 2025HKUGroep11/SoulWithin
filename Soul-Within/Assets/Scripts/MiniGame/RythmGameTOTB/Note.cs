@@ -1,51 +1,42 @@
-using Unity.VisualScripting;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class Note : MonoBehaviour
 {
-    [SerializeField] private float _speed = 5f;
-    [SerializeField] private RectTransform _hitZoneRect;
-    [SerializeField] private float _hitRange = 50f;
+    [SerializeField] private float speed = 5f;
+    [SerializeField] private Transform hitZone;
+    [SerializeField] private float hitRange = 0.5f;
 
-    private bool _inHitZone = false;
-    private RectTransform _rectTransform;
+    private NoteSpawner spawner;
 
-    [SerializeField] private GameObject _parrentCanva;
-
-    private NoteSpawner _spawnerScript;
-
-    private void Awake()
-    {
-        _rectTransform = GetComponent<RectTransform>();
-        _spawnerScript = Object.FindFirstObjectByType<NoteSpawner>();
-    }
-
-    // Update is called once per frame
     private void Update()
     {
-        _rectTransform.anchoredPosition += Vector2.left * _speed * Time.deltaTime; // Move left to right
-        float distance = Mathf.Abs(_rectTransform.anchoredPosition.x - _hitZoneRect.anchoredPosition.x);
-        _inHitZone = distance < _hitRange;
+        transform.position += Vector3.left * speed * Time.deltaTime;
 
-        if (_inHitZone && Input.GetMouseButtonDown(0))
-        {
-            Debug.Log("HIT");
-            _parrentCanva.SetActive(false);
-            Destroy(gameObject);
-        }
-        if (_rectTransform.anchoredPosition.x < _hitZoneRect.anchoredPosition.x - _hitRange)
-        {
-            _spawnerScript.AddMissPoint();
-            _parrentCanva.SetActive(false);
-            Destroy(gameObject);
-        }
+        float distance = Vector2.Distance(transform.position, hitZone.position);
 
-        // Check for hitzone 
-        if(_inHitZone)
+        if (distance < hitRange)
         {
-            _rectTransform.GetComponent<Image>().color = Color.green;
+            if (Input.GetMouseButtonDown(0))
+            {
+                Debug.Log("HIT!");
+                Destroy(gameObject);
+            }
+        }
+        else
+        {
+            
+            if (transform.position.x < hitZone.position.x - hitRange)
+            {
+                Debug.Log("Missed!");
+                spawner.AddMissPoint();
+                Destroy(gameObject);
+                
+            }
         }
     }
 
+    public void SetSpawner(NoteSpawner spawnerScript)
+    {
+        spawner = spawnerScript;
+    }
 }

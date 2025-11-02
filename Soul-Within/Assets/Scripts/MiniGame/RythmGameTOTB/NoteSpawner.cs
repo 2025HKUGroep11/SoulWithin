@@ -1,34 +1,74 @@
+using System.Collections;
+using System.Collections.Generic;
 using System.Threading;
 using UnityEngine;
-using UnityEngine.UI;
+using UnityEngine.Video;
+
 
 public class NoteSpawner : MonoBehaviour
 {
-    [SerializeField] GameObject _notePrefab;
-    [SerializeField] GameObject _spawnerPlace;
+    [SerializeField] private List<GameObject> notes = new List<GameObject>();
+    private List<GameObject> activeNotes = new List<GameObject>();
+
+    [SerializeField] GameObject _spawnPosition;
     [SerializeField] private float _spawnTime = 2f;
-    private float _timer;
+    
+    private int _nextNoteList = 0;
 
     // missed notes 
     private int _missPoint = 0;
     [SerializeField] private int _maxMiss = 3;
 
-    // Update is called once per frame
-    void Update()
-    {
-        _timer += Time.deltaTime;
+    // Verander misschien naar game obejct active and false voor.
+    [SerializeField] private VideoPlayer videoPlayer;
+    private bool isGameRunning = true;
+    private bool isVideoPlaying = false;
 
-        if ( _timer >= _spawnTime)
+    private void Start()
+    {
+        StartCoroutine(SpawnLoop());
+    }
+
+    private IEnumerator SpawnLoop()
+    {
+        while (isGameRunning)
         {
-            _timer = 0;
-            SpawnNote();
+            if (_missPoint >= _maxMiss)
+            {
+                Debug.Log("Game OVer rest");
+                ResetGame();
+                yield break;
+            }
+            if (_nextNoteList >= notes.Count)
+            {
+                isGameRunning = false;
+                PlayVideo();
+                yield break; 
+            }
+            SpawnNextNote();
+            yield return new WaitForSeconds(_spawnTime);
         }
     }
 
-    private void SpawnNote()
+    private void SpawnNextNote()
     {
-        Vector2 spawnPost = _spawnerPlace.transform.position;
-        Instantiate(_notePrefab, spawnPost, Quaternion.identity);
+        if (_nextNoteList >= notes.Count)
+        {
+            _nextNoteList = 0; 
+        }
+
+        GameObject prefab = notes[_nextNoteList];
+
+        GameObject instance = Instantiate(prefab, _spawnPosition.transform.position, Quaternion.identity);
+        activeNotes.Add(instance);
+        
+        Note noteScript = instance.GetComponent<Note>();
+        if (noteScript != null)
+        {
+            noteScript.SetSpawner(this); 
+        }
+
+        _nextNoteList++;
     }
 
     public void AddMissPoint()
@@ -38,6 +78,29 @@ public class NoteSpawner : MonoBehaviour
         if(_missPoint >= _maxMiss)
         {
             Debug.Log("game over try again");
+            ResetGame();
         }
+    }
+
+    private void ResetGame()
+    {
+        _missPoint = 0;
+        _nextNoteList = 0;
+
+        foreach (var note in activeNotes)
+        {
+            if (note != null)
+            {
+                Destroy(note);
+            }
+        }
+        activeNotes.Clear();
+    }
+
+    // verander dit nog naar game obejct set active shit
+    private void PlayVideo()
+    {
+        videoPlayer.gameObject.SetActive(true);
+        videoPlayer.Play();
     }
 }
