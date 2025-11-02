@@ -9,7 +9,7 @@ namespace Managers
         public static GameManager Instance { get; private set; }
 
         [SerializeField] private GameObject mainGame;
-        [SerializeField] private GameObject miniGame;
+
         private void Awake() => AssignInstance();
 
         private void Start()

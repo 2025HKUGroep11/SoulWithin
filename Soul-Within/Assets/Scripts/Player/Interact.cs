@@ -14,7 +14,6 @@ namespace Player
         [SerializeField] private TMP_Text textF;
         [SerializeField] private string playerTag;
 
-        // Start is called once before the first execution of Update after the MonoBehaviour is created
         private void Awake()
         {
             inputControls = new PlayerControls();
