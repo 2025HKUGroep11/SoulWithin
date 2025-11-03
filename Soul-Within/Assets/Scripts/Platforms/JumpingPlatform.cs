@@ -4,7 +4,7 @@ public class JumpingPlatform : MonoBehaviour
 {
     [SerializeField] private float jumpForce = 10f;
 
-    private void OnCollisionEnter(Collision other)
+    private void OnCollisionEnter2D(Collision2D other)
     {
         if (other.gameObject.CompareTag("player"))
         {

@@ -127,6 +127,24 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""CheatRIghtMiniGame"",
+                    ""type"": ""Button"",
+                    ""id"": ""ffcf8904-93b9-476d-b6b7-f64114dca772"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": true
+                },
+                {
+                    ""name"": ""CheatLeftMiniGame"",
+                    ""type"": ""Button"",
+                    ""id"": ""2946fed9-d0ee-4a84-8e63-d34c610bf191"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": true
                 }
             ],
             ""bindings"": [
@@ -248,6 +266,28 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""groups"": "";Keyboard&Mouse"",
                     ""action"": ""StartLevelAgain"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""ef135023-c62d-42b8-9fce-560fd6f17e4a"",
+                    ""path"": ""<Keyboard>/0"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": "";Keyboard&Mouse"",
+                    ""action"": ""CheatRIghtMiniGame"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""5992701d-0fa3-45ca-80ec-79477a3c6055"",
+                    ""path"": ""<Keyboard>/#(9)"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": "";Keyboard&Mouse"",
+                    ""action"": ""CheatLeftMiniGame"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -839,6 +879,8 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
         m_Player_Jump = m_Player.FindAction("Jump", throwIfNotFound: true);
         m_Player_OnInteract = m_Player.FindAction("OnInteract", throwIfNotFound: true);
         m_Player_StartLevelAgain = m_Player.FindAction("StartLevelAgain", throwIfNotFound: true);
+        m_Player_CheatRIghtMiniGame = m_Player.FindAction("CheatRIghtMiniGame", throwIfNotFound: true);
+        m_Player_CheatLeftMiniGame = m_Player.FindAction("CheatLeftMiniGame", throwIfNotFound: true);
         // UI
         m_UI = asset.FindActionMap("UI", throwIfNotFound: true);
         m_UI_Navigate = m_UI.FindAction("Navigate", throwIfNotFound: true);
@@ -936,6 +978,8 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
     private readonly InputAction m_Player_Jump;
     private readonly InputAction m_Player_OnInteract;
     private readonly InputAction m_Player_StartLevelAgain;
+    private readonly InputAction m_Player_CheatRIghtMiniGame;
+    private readonly InputAction m_Player_CheatLeftMiniGame;
     /// <summary>
     /// Provides access to input actions defined in input action map "Player".
     /// </summary>
@@ -963,6 +1007,14 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
         /// Provides access to the underlying input action "Player/StartLevelAgain".
         /// </summary>
         public InputAction @StartLevelAgain => m_Wrapper.m_Player_StartLevelAgain;
+        /// <summary>
+        /// Provides access to the underlying input action "Player/CheatRIghtMiniGame".
+        /// </summary>
+        public InputAction @CheatRIghtMiniGame => m_Wrapper.m_Player_CheatRIghtMiniGame;
+        /// <summary>
+        /// Provides access to the underlying input action "Player/CheatLeftMiniGame".
+        /// </summary>
+        public InputAction @CheatLeftMiniGame => m_Wrapper.m_Player_CheatLeftMiniGame;
         /// <summary>
         /// Provides access to the underlying input action map instance.
         /// </summary>
@@ -1001,6 +1053,12 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
             @StartLevelAgain.started += instance.OnStartLevelAgain;
             @StartLevelAgain.performed += instance.OnStartLevelAgain;
             @StartLevelAgain.canceled += instance.OnStartLevelAgain;
+            @CheatRIghtMiniGame.started += instance.OnCheatRIghtMiniGame;
+            @CheatRIghtMiniGame.performed += instance.OnCheatRIghtMiniGame;
+            @CheatRIghtMiniGame.canceled += instance.OnCheatRIghtMiniGame;
+            @CheatLeftMiniGame.started += instance.OnCheatLeftMiniGame;
+            @CheatLeftMiniGame.performed += instance.OnCheatLeftMiniGame;
+            @CheatLeftMiniGame.canceled += instance.OnCheatLeftMiniGame;
         }
 
         /// <summary>
@@ -1024,6 +1082,12 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
             @StartLevelAgain.started -= instance.OnStartLevelAgain;
             @StartLevelAgain.performed -= instance.OnStartLevelAgain;
             @StartLevelAgain.canceled -= instance.OnStartLevelAgain;
+            @CheatRIghtMiniGame.started -= instance.OnCheatRIghtMiniGame;
+            @CheatRIghtMiniGame.performed -= instance.OnCheatRIghtMiniGame;
+            @CheatRIghtMiniGame.canceled -= instance.OnCheatRIghtMiniGame;
+            @CheatLeftMiniGame.started -= instance.OnCheatLeftMiniGame;
+            @CheatLeftMiniGame.performed -= instance.OnCheatLeftMiniGame;
+            @CheatLeftMiniGame.canceled -= instance.OnCheatLeftMiniGame;
         }
 
         /// <summary>
@@ -1352,6 +1416,20 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
         /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
         void OnStartLevelAgain(InputAction.CallbackContext context);
+        /// <summary>
+        /// Method invoked when associated input action "CheatRIghtMiniGame" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnCheatRIghtMiniGame(InputAction.CallbackContext context);
+        /// <summary>
+        /// Method invoked when associated input action "CheatLeftMiniGame" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnCheatLeftMiniGame(InputAction.CallbackContext context);
     }
     /// <summary>
     /// Interface to implement callback methods for all input action callbacks associated with input actions defined by "UI" which allows adding and removing callbacks.

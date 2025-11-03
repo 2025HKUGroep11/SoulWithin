@@ -41,6 +41,24 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "CheatRIghtMiniGame",
+                    "type": "Button",
+                    "id": "ffcf8904-93b9-476d-b6b7-f64114dca772",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "CheatLeftMiniGame",
+                    "type": "Button",
+                    "id": "2946fed9-d0ee-4a84-8e63-d34c610bf191",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
                 }
             ],
             "bindings": [
@@ -162,6 +180,28 @@
                     "processors": "",
                     "groups": ";Keyboard&Mouse",
                     "action": "StartLevelAgain",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ef135023-c62d-42b8-9fce-560fd6f17e4a",
+                    "path": "<Keyboard>/0",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Keyboard&Mouse",
+                    "action": "CheatRIghtMiniGame",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5992701d-0fa3-45ca-80ec-79477a3c6055",
+                    "path": "<Keyboard>/#(9)",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Keyboard&Mouse",
+                    "action": "CheatLeftMiniGame",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

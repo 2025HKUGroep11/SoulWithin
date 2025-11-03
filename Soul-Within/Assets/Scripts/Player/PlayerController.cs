@@ -1,6 +1,9 @@
 
+using Enums;
+using Managers;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -39,6 +42,22 @@ public class PlayerController : MonoBehaviour
             _isGrounded = false;
         }
     }
+
+    public void CheatLeftMiniGame(InputAction.CallbackContext context)
+    {
+        MiniGameManager.Instance.CompleteMiniGame(PrerequisiteMiniGames.Beatgame, true);
+    }
+
+    public void StartLevelAgain(InputAction.CallbackContext context)
+    {
+        SceneManager.LoadScene(0);
+    }
+    
+    public void CheatRightMiniGame(InputAction.CallbackContext context)
+    {
+        MiniGameManager.Instance.CompleteMiniGame(PrerequisiteMiniGames.Simonsays, true);
+    }
+    
 
     // Grounded check 
     private void OnCollisionEnter2D(Collision2D collision)
