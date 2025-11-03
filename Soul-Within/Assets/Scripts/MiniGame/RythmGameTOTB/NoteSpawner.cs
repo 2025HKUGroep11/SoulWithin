@@ -20,12 +20,14 @@ public class NoteSpawner : MonoBehaviour
     [SerializeField] private int _maxMiss = 3;
 
     // Verander misschien naar game obejct active and false voor.
-    [SerializeField] private VideoPlayer videoPlayer;
+    [SerializeField] private GameObject videoPlayer;
+    [SerializeField] private GameObject minigameFalse;
     private bool isGameRunning = true;
     private bool isVideoPlaying = false;
 
     private void Start()
     {
+        minigameFalse.gameObject.SetActive(true);
         StartCoroutine(SpawnLoop());
     }
 
@@ -101,6 +103,7 @@ public class NoteSpawner : MonoBehaviour
     private void PlayVideo()
     {
         videoPlayer.gameObject.SetActive(true);
-        videoPlayer.Play();
+        minigameFalse.gameObject.SetActive(false);
+        //videoPlayer.Play();
     }
 }
