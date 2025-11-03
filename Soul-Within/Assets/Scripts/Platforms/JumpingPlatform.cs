@@ -8,12 +8,7 @@ public class JumpingPlatform : MonoBehaviour
     {
         if (other.gameObject.CompareTag("player"))
         {
-            Rigidbody2D rb = other.gameObject.GetComponent<Rigidbody2D>();
-            rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
-            if (rb != null)
-            {
-                
-            }
+            other.gameObject.GetComponent<Rigidbody2D>().AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
         }
     }
 }
